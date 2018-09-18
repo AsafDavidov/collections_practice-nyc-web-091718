@@ -51,5 +51,5 @@ def add_s(array)
     if index == 1
       array_with_s << word
     else
-      array_with_s << word.concat
+      array_with_s << word.concat("s")
 end
