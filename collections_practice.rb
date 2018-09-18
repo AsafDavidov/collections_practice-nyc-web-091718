@@ -23,3 +23,10 @@ def reverse_array(array)
   array.reverse_each{|number| reversed_arr << number}
   reversed_arr
 end
+
+def kesha_maker(array)
+  kesha_arr = []
+  array.each do |kesha_string|
+    
+  end
+end
