@@ -30,4 +30,5 @@ def kesha_maker(array)
     kesha_string[2] = $
     kesha_arr << kesha_string
   end
+  kesha_arr
 end
