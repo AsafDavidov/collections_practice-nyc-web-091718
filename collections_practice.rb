@@ -3,5 +3,5 @@ def sort_array_asc(unsorted_array)
 end
 
 def sort_array_desc(unsorted_array)
-  unsorted_array.sort {|a,b| a<=>
+  unsorted_array.sort {|a,b| b<=>a
 end
