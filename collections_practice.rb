@@ -52,4 +52,6 @@ def add_s(array)
       array_with_s << word
     else
       array_with_s << word.concat("s")
+    end
+  end
 end
