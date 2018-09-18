@@ -32,3 +32,6 @@ def kesha_maker(array)
   end
   kesha_arr
 end
+
+def sum_array(array)
+end
