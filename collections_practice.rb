@@ -7,5 +7,5 @@ def sort_array_desc(unsorted_array)
 end
 
 def sort_array_char_count(unsorted_array)
-  unsorted_array.sort
+  unsorted_array.sortby{|word| word.length}
 end
