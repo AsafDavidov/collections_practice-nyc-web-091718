@@ -19,6 +19,6 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  reversed_arr
-  array.reverse_each
+  reversed_arr = []
+  array.reverse_each{|number| 
 end
