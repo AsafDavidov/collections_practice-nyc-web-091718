@@ -21,4 +21,5 @@ end
 def reverse_array(array)
   reversed_arr = []
   array.reverse_each{|number| reversed_arr << number}
+  reversed_arr
 end
