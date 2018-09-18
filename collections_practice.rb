@@ -47,4 +47,9 @@ end
 
 def add_s(array)
   array_with_s = []
+  array.each_with_index do |word,index|
+    if index == 1
+      array_with_s << word
+    else
+      array_with_s << word +
 end
