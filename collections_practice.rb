@@ -34,5 +34,7 @@ def kesha_maker(array)
 end
 
 def sum_array(array)
-  sum = nil
+  sum = 0
+  array.each do |number|
+    sum = sum + number
 end
